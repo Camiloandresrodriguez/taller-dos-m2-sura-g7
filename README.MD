@@ -169,7 +169,7 @@ Tareas:
 ## Ejercicio 17: Reemplazar sin Mutar (map)
 Inicias con el estado de un tablero:
 `let tablero = ["X", "O", "X"];`
-
+    
 Tareas:
 1.  El jugador "O" (índice 1) comete un error y debe ser "X". Crea un `nuevoTablero` usando `map()` para cambiar el valor en ese índice.
 2.  Verifica que `tablero` original sigue teniendo "O" en el medio.

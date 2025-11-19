@@ -106,5 +106,23 @@ let nuevaFilaConJorge = [...fila.slice(0,1), "Jorge", ...fila.slice(1)]
 console.log(fila);
 console.log(nuevaFilaConJorge);
 
+//Ejercicio 17 taller metodos no mutables.
+let tablero = ["X", "O", "X"];
+let nuevoTablero = tablero.map((valor , indice) => {
+    if(indice === 1)
+    {
+        return "x";
+    }
+    else
+    {
+       return valor;
+    }
+})
+
+console.log(tablero);
+console.log(nuevoTablero);
+
+
+
 
 
