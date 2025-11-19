@@ -23,3 +23,10 @@ let enStock = productos.filter((Stock) => Stock.stock > 0)
 
 console.log(enStock);
 
+//Ejercicio 5 taller metodos no mutables.
+let ventas = [150, 300, 100, 50];
+let totalVentas = ventas.reduce((acumulador ,resultado) => { return acumulador + resultado}, 0)
+
+console.log(totalVentas);
+
+
