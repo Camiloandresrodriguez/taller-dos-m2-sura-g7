@@ -92,4 +92,11 @@ let recetaInversa = [...receta].reverse();
 console.log(receta);
 console.log(recetaInversa);
 
+//Ejercicio 15 taller metodos no mutables.
+let fila = ["Ana", "Luis", "Carlos", "Maria"];
+let nuevaFila = fila.filter((nombre) => nombre !== "Luis")
+
+console.log(fila);
+console.log(nuevaFila);
+
 
