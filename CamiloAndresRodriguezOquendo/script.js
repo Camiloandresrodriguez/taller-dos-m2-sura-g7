@@ -57,3 +57,10 @@ let equipoCompleto = equipoDev.concat(equipoQA)
 
 console.log(equipoCompleto);
 
+//Ejercicio 10 taller metodos no mutables.
+let carrito = ["Manzana"];
+let nuevoCarrito = carrito.concat("pera")
+
+console.log(carrito);
+console.log(nuevoCarrito);
+
