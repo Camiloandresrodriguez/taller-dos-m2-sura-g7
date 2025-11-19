@@ -29,4 +29,11 @@ let totalVentas = ventas.reduce((acumulador ,resultado) => { return acumulador +
 
 console.log(totalVentas);
 
+//Ejercicio 6 taller metodos no mutables.
+let grupos = [["Ana", "Luis"], ["Maria", "Juan"], ["Pedro"]];
+let listaPlana = grupos.reduce((acumulador, resultado) => acumulador.concat(resultado))
+
+console.log(listaPlana);
+
+
 
