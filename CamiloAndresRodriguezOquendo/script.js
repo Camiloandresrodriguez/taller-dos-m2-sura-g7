@@ -11,3 +11,9 @@ let nombres = usuarios.map((usuario) => usuario.nombre)
 
 console.log(nombres);
 
+//Ejercicio 3 taller metodos no mutables.
+let notas = [8, 5, 10, 3, 7];
+let aprobadas = notas.filter((nota) => nota = nota >= 6)
+
+console.log(aprobadas);
+
