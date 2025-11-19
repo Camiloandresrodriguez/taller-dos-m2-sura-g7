@@ -50,4 +50,10 @@ let podio = competidores.slice(0,3)
 console.log(competidores);
 console.log(podio);
 
+//Ejercicio 9 taller metodos no mutables.
+let equipoDev = ["Ana", "Juan"];
+let equipoQA = ["Carlos", "Maria"];
+let equipoCompleto = equipoDev.concat(equipoQA)
+
+console.log(equipoCompleto);
 
