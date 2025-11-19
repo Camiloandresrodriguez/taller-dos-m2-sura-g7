@@ -64,3 +64,11 @@ let nuevoCarrito = carrito.concat("pera")
 console.log(carrito);
 console.log(nuevoCarrito);
 
+//Ejercicio 11 taller metodos no mutables.
+let roles = ["USER", "EDITOR"];
+let admin = roles.includes("Admin")
+let editor = roles.includes("EDITOR")
+
+console.log(admin);
+console.log(editor);
+
