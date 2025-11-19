@@ -128,6 +128,11 @@ let productosCaros = productos2.filter((producto) => producto.precio > 4).map(pr
 
 console.log(productosCaros);
 
+//Ejercicio 19 taller metodos no mutables.
+let feed = ["Noticia 1", "Noticia 2", "Noticia 3"];
+let nuevoFeed = ["Noticia urgente"].concat(feed)
+
+console.log(nuevoFeed);
 
 
 
