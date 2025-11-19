@@ -35,5 +35,12 @@ let listaPlana = grupos.reduce((acumulador, resultado) => acumulador.concat(resu
 
 console.log(listaPlana);
 
+//Ejercicio 7 taller metodos no mutables.
+let original = ["A", "B", "C"];
+let clon = original.slice()
+clon.push("D")
+
+console.log(original);
+console.log(clon);
 
 
