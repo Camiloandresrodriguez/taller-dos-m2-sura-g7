@@ -125,13 +125,13 @@ Tareas:
 
 ---
 
-## Ejercicio 13: Ordenar sin Mutar (Copia + sort)
-Inicias con una lista de invitados desordenada:
-`let invitados = ["Zapata", "Alvarez", "Gomez", "Bernal"];`
+    ## Ejercicio 13: Ordenar sin Mutar (Copia + sort)
+    Inicias con una lista de invitados desordenada:
+    `let invitados = ["Zapata", "Alvarez", "Gomez", "Bernal"];`
 
-Tareas:
-1.  Crea un nuevo arreglo `invitadosOrdenados` ordenando la lista. **Importante: ¡No mutes el original!** (Pista: `[...invitados].sort()`).
-2.  Muestra `invitados` para verificar que sigue en el orden original.
+    Tareas:
+    1.  Crea un nuevo arreglo `invitadosOrdenados` ordenando la lista. **Importante: ¡No mutes el original!** (Pista: `[...invitados].sort()`).
+    2.  Muestra `invitados` para verificar que sigue en el orden original.
 
 ---
 

@@ -78,4 +78,11 @@ let usuarioLuis = usuarios2.find((usuario) => usuario.id == 102)
 
 console.log(usuarioLuis);        
 
+//Ejercicio 13 taller metodos no mutables.
+let invitados = ["Zapata", "Alvarez", "Gomez", "Bernal"];
+let invitadosOrdenados =[...invitados].sort();
+
+console.log(invitados);
+console.log(invitadosOrdenados);
+
 
